@@ -1,9 +1,9 @@
-# logistics-backend
+# ddd-sample
 
 Logistics Service For Channel（LCS)
 
 # git submodule 克隆项目
-git clone --recurse-submodules https://github.com/heshaofeng1991/logistics-backend.git
+git clone --recurse-submodules https://github.com/heshaofeng1991/ddd-sample.git
 
 go install github.com/deepmap/oapi-codegen/cmd/oapi-codegen
 

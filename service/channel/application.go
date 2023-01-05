@@ -10,11 +10,11 @@
 package channel
 
 import (
+	applicationChannel "github.com/heshaofeng1991/ddd-sample/application/channel"
+	"github.com/heshaofeng1991/ddd-sample/application/channel/command"
+	"github.com/heshaofeng1991/ddd-sample/application/channel/query"
+	interfaceChannel "github.com/heshaofeng1991/ddd-sample/infra/channel"
 	ent "github.com/heshaofeng1991/entgo/ent/gen"
-	applicationChannel "github.com/heshaofeng1991/logistics-backend/application/channel"
-	"github.com/heshaofeng1991/logistics-backend/application/channel/command"
-	"github.com/heshaofeng1991/logistics-backend/application/channel/query"
-	interfaceChannel "github.com/heshaofeng1991/logistics-backend/infra/channel"
 )
 
 func NewApplication(entClient *ent.Client) applicationChannel.Application {

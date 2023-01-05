@@ -12,7 +12,7 @@ package repository
 import (
 	"context"
 
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 )
 
 type ChannelRepository interface {

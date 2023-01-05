@@ -12,8 +12,8 @@ package quote
 import (
 	"context"
 
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 	"github.com/heshaofeng1991/entgo/ent/gen/channelrecommend"
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
 	"github.com/pkg/errors"
 )
 

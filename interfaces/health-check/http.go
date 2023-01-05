@@ -26,7 +26,7 @@ func (h HTTPServer) Get(w http.ResponseWriter, r *http.Request) {
 	render.Respond(
 		w, r, map[string]interface{}{
 			"status":    "ok",
-			"service":   "logistics-backend",
+			"service":   "ddd-sample",
 			"timestamp": time.Now(),
 		},
 	)

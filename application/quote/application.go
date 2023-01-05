@@ -10,7 +10,7 @@
 package quote
 
 import (
-	"github.com/heshaofeng1991/logistics-backend/application/quote/query"
+	"github.com/heshaofeng1991/ddd-sample/application/quote/query"
 )
 
 type Application struct {

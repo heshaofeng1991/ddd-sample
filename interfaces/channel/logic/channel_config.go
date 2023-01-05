@@ -16,8 +16,8 @@ import (
 
 	"github.com/go-chi/render"
 	"github.com/heshaofeng1991/common/util/httpresponse"
-	inter "github.com/heshaofeng1991/logistics-backend/interfaces"
-	chlLogic "github.com/heshaofeng1991/logistics-backend/interfaces/channel"
+	inter "github.com/heshaofeng1991/ddd-sample/interfaces"
+	chlLogic "github.com/heshaofeng1991/ddd-sample/interfaces/channel"
 )
 
 func (h HTTPServer) GetCustomerConfigs(w http.ResponseWriter, r *http.Request,

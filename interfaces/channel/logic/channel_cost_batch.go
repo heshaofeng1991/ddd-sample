@@ -16,7 +16,7 @@ import (
 
 	"github.com/go-chi/render"
 	"github.com/heshaofeng1991/common/util/httpresponse"
-	chlLogic "github.com/heshaofeng1991/logistics-backend/interfaces/channel"
+	chlLogic "github.com/heshaofeng1991/ddd-sample/interfaces/channel"
 )
 
 //nolint:revive

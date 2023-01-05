@@ -20,7 +20,7 @@ import (
 	jwtAuth "github.com/heshaofeng1991/common/util/auth"
 	"github.com/heshaofeng1991/common/util/env"
 	httperr "github.com/heshaofeng1991/common/util/httpresponse"
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 	"github.com/sirupsen/logrus"
 )
 

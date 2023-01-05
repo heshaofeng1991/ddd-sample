@@ -12,10 +12,10 @@ package quote
 import (
 	"context"
 
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 	ent "github.com/heshaofeng1991/entgo/ent/gen"
 	"github.com/heshaofeng1991/entgo/ent/gen/user"
 	"github.com/heshaofeng1991/entgo/ent/viewer"
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
 	"github.com/pkg/errors"
 )
 

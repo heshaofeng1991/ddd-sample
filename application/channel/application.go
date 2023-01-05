@@ -10,8 +10,8 @@
 package channel
 
 import (
-	"github.com/heshaofeng1991/logistics-backend/application/channel/command"
-	"github.com/heshaofeng1991/logistics-backend/application/channel/query"
+	"github.com/heshaofeng1991/ddd-sample/application/channel/command"
+	"github.com/heshaofeng1991/ddd-sample/application/channel/query"
 )
 
 type Application struct {

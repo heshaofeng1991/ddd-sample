@@ -1,4 +1,4 @@
-module github.com/heshaofeng1991/logistics-backend
+module github.com/heshaofeng1991/ddd-sample
 
 go 1.18
 

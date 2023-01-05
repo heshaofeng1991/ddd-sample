@@ -44,13 +44,13 @@ lint:
 ## compile :compile oms backend server code
 compile:
 	@echo COMPILE CODE...
-	@go build -o logistics-backend ./cmd/main.go ./cmd/http.go
+	@go build -o ddd-sample ./cmd/main.go ./cmd/http.go
 
 .PHONY: serve
 ## serve :start oms backend server
 serve:
 	@echo START SERVER...
-	./logistics-backend
+	./ddd-sample
 
 .PHONY: reload
 ## reload :only start oms backend server

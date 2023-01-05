@@ -12,7 +12,7 @@ package logic
 import (
 	"strings"
 
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 )
 
 // 过滤不支持的产品属性.

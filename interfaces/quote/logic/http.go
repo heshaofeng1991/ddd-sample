@@ -15,9 +15,9 @@ import (
 
 	"github.com/go-chi/render"
 	"github.com/heshaofeng1991/common/util/httpresponse"
-	applicationQuote "github.com/heshaofeng1991/logistics-backend/application/quote"
-	inter "github.com/heshaofeng1991/logistics-backend/interfaces"
-	qtLogic "github.com/heshaofeng1991/logistics-backend/interfaces/quote"
+	applicationQuote "github.com/heshaofeng1991/ddd-sample/application/quote"
+	inter "github.com/heshaofeng1991/ddd-sample/interfaces"
+	qtLogic "github.com/heshaofeng1991/ddd-sample/interfaces/quote"
 	"github.com/sirupsen/logrus"
 )
 

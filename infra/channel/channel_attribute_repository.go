@@ -14,10 +14,10 @@ import (
 	"encoding/json"
 
 	"github.com/heshaofeng1991/common/dao"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 	ent "github.com/heshaofeng1991/entgo/ent/gen"
 	"github.com/heshaofeng1991/entgo/ent/gen/attribute"
 	"github.com/heshaofeng1991/entgo/ent/gen/channel"
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
 	"github.com/pkg/errors"
 )
 

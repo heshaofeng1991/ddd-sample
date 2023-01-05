@@ -13,10 +13,10 @@ import (
 	"context"
 	"math"
 
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 	ent "github.com/heshaofeng1991/entgo/ent/gen"
 	"github.com/heshaofeng1991/entgo/ent/gen/channelcost"
 	"github.com/heshaofeng1991/entgo/ent/gen/predicate"
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
 	"github.com/pkg/errors"
 )
 

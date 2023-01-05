@@ -13,7 +13,7 @@ import (
 	"context"
 	"math"
 
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 	"github.com/pkg/errors"
 )
 

@@ -12,7 +12,7 @@ package command
 import (
 	"context"
 
-	domainRepository "github.com/heshaofeng1991/logistics-backend/domain/repository"
+	domainRepository "github.com/heshaofeng1991/ddd-sample/domain/repository"
 	"github.com/pkg/errors"
 )
 

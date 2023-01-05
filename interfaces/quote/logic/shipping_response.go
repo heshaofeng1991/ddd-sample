@@ -12,8 +12,8 @@ package logic
 import (
 	"sort"
 
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
-	qtLogic "github.com/heshaofeng1991/logistics-backend/interfaces/quote"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
+	qtLogic "github.com/heshaofeng1991/ddd-sample/interfaces/quote"
 )
 
 func BuildQuoteResponse(shippingFees []*domainEntity.ShippingFeeForFilterCost) *qtLogic.QuoteRsp {

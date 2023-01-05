@@ -12,7 +12,7 @@ package logic
 import (
 	"math"
 
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
 )
 
 // 进行最终汇率的转换（默认的是人民币汇率）RMB To USD.

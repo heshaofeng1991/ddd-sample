@@ -17,14 +17,14 @@ import (
 	"github.com/heshaofeng1991/common/util/env"
 	"github.com/heshaofeng1991/common/util/log"
 	"github.com/heshaofeng1991/common/util/sentry"
+	interfaceChannel "github.com/heshaofeng1991/ddd-sample/interfaces/channel" //nolint:gci
+	interfaceChannelLogic "github.com/heshaofeng1991/ddd-sample/interfaces/channel/logic"
+	interfaceHealth "github.com/heshaofeng1991/ddd-sample/interfaces/health-check"
+	interfaceQuote "github.com/heshaofeng1991/ddd-sample/interfaces/quote"
+	interfaceQuoteLogic "github.com/heshaofeng1991/ddd-sample/interfaces/quote/logic"
+	svrChannel "github.com/heshaofeng1991/ddd-sample/service/channel"
+	svrQuote "github.com/heshaofeng1991/ddd-sample/service/quote"
 	ent "github.com/heshaofeng1991/entgo/ent/gen"
-	interfaceChannel "github.com/heshaofeng1991/logistics-backend/interfaces/channel" //nolint:gci
-	interfaceChannelLogic "github.com/heshaofeng1991/logistics-backend/interfaces/channel/logic"
-	interfaceHealth "github.com/heshaofeng1991/logistics-backend/interfaces/health-check"
-	interfaceQuote "github.com/heshaofeng1991/logistics-backend/interfaces/quote"
-	interfaceQuoteLogic "github.com/heshaofeng1991/logistics-backend/interfaces/quote/logic"
-	svrChannel "github.com/heshaofeng1991/logistics-backend/service/channel"
-	svrQuote "github.com/heshaofeng1991/logistics-backend/service/quote"
 	"github.com/sirupsen/logrus"
 
 	_ "github.com/heshaofeng1991/entgo/ent/gen/runtime"

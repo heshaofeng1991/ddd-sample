@@ -10,7 +10,7 @@
 package logic
 
 import (
-	applicationChannel "github.com/heshaofeng1991/logistics-backend/application/channel"
+	applicationChannel "github.com/heshaofeng1991/ddd-sample/application/channel"
 )
 
 type HTTPServer struct {

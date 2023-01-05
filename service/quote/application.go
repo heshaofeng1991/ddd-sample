@@ -10,10 +10,10 @@
 package quote
 
 import (
+	applicationQuote "github.com/heshaofeng1991/ddd-sample/application/quote"
+	"github.com/heshaofeng1991/ddd-sample/application/quote/query"
+	infraQuote "github.com/heshaofeng1991/ddd-sample/infra/quote"
 	ent "github.com/heshaofeng1991/entgo/ent/gen"
-	applicationQuote "github.com/heshaofeng1991/logistics-backend/application/quote"
-	"github.com/heshaofeng1991/logistics-backend/application/quote/query"
-	infraQuote "github.com/heshaofeng1991/logistics-backend/infra/quote"
 )
 
 func NewApplication(entClient *ent.Client) applicationQuote.Application {

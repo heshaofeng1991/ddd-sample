@@ -14,8 +14,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
-	qtLogic "github.com/heshaofeng1991/logistics-backend/interfaces/quote"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
+	qtLogic "github.com/heshaofeng1991/ddd-sample/interfaces/quote"
 	"github.com/pkg/errors"
 )
 

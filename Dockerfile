@@ -2,7 +2,7 @@ FROM golang:1.18-buster
 
 WORKDIR /
 
-COPY ./logistics-backend /logistics-backend
+COPY ./ddd-sample /ddd-sample
 COPY ./resources /resources
 
 EXPOSE 80

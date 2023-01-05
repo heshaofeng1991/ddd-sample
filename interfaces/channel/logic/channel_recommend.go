@@ -16,7 +16,7 @@ import (
 
 	"github.com/go-chi/render"
 	"github.com/heshaofeng1991/common/util/httpresponse"
-	chlLogic "github.com/heshaofeng1991/logistics-backend/interfaces/channel"
+	chlLogic "github.com/heshaofeng1991/ddd-sample/interfaces/channel"
 )
 
 func (h HTTPServer) GetRecommends(w http.ResponseWriter, r *http.Request, params chlLogic.GetRecommendsParams) {

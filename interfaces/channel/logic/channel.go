@@ -17,8 +17,8 @@ import (
 
 	"github.com/go-chi/render"
 	"github.com/heshaofeng1991/common/util/httpresponse"
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
-	chlLogic "github.com/heshaofeng1991/logistics-backend/interfaces/channel"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
+	chlLogic "github.com/heshaofeng1991/ddd-sample/interfaces/channel"
 	"github.com/sirupsen/logrus"
 )
 

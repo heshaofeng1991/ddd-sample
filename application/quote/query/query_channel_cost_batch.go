@@ -13,8 +13,8 @@ import (
 	"context"
 	"time"
 
-	domainEntity "github.com/heshaofeng1991/logistics-backend/domain/entity"
-	domainRepository "github.com/heshaofeng1991/logistics-backend/domain/repository"
+	domainEntity "github.com/heshaofeng1991/ddd-sample/domain/entity"
+	domainRepository "github.com/heshaofeng1991/ddd-sample/domain/repository"
 	"github.com/pkg/errors"
 )
 
